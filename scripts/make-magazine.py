@@ -7,6 +7,7 @@ from os.path import abspath, basename, dirname, join
 import re
 
 from bs4 import BeautifulSoup
+from dateutil import parser
 import html2text
 import pytoml
 
@@ -38,6 +39,7 @@ def parse_article(article_path):
     author_node = title_node.next_sibling.next_sibling
     author = ' '.join(author_node.text.split()[1:])
     date = soup.select_one('img[width=300]').parent.parent.select_one('em').text
+    date = parser.parse(date).date().isoformat()
 
     hr_node = author_node.next_sibling.next_sibling
     html_content = ' '.join(map(str, hr_node.next_siblings)).strip()
