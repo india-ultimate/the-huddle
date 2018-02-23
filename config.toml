@@ -1,0 +1,16 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "The Huddle"
+theme = "kube"
+Paginate = 25
+
+[Params]
+    RSSLink = "/index.xml"
+    description = "An archive of The Huddle — an Ultimate magazine."
+    author = "the-huddle" # add your company name
+    github = "" # add your github profile name
+    twitter = "" # add your twitter profile
+    email = "myemail@myaddress.xxx"
+
+[outputs]
+    home = [ "HTML", "RSS", "JSON"]
