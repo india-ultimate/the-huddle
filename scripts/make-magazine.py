@@ -2,6 +2,7 @@
 """Script to convert the mirrored pages to a hugo blog."""
 
 import glob
+import json
 from os import makedirs
 from os.path import abspath, basename, dirname, join
 import re
@@ -12,20 +13,21 @@ import html2text
 import pytoml
 
 HERE = dirname(abspath(__file__))
+WWW_DIR = join(HERE, '..', 'www.usaultimate.org', 'huddle')
+CONTENT_DIR = join(HERE, '..', 'content')
+DATA_DIR = join(HERE, '..', 'data')
 
 
 def create_md_content_dir():
     """Create a markdown content dir from the mirror directory."""
 
-    src_dir = join(HERE, '..', 'www.usaultimate.org', 'huddle')
-    dest_dir = join(HERE, '..', 'content')
-    makedirs(dest_dir, exist_ok=True)
+    makedirs(CONTENT_DIR, exist_ok=True)
     content = [
         parse_article(path)
-        for path in glob.glob('{}/issue*_*.aspx'.format(src_dir))
+        for path in glob.glob('{}/issue*_*.aspx'.format(WWW_DIR))
     ]
     for post in content:
-        create_hugo_post(post, dest_dir)
+        create_hugo_post(post, CONTENT_DIR)
 
 
 def parse_article(article_path):
@@ -73,7 +75,26 @@ def slugify(title):
     return re.sub('[^a-z0-9]+', '-', title.lower())
 
 
-if __name__ == '__main__':
+def create_issue_index():
+    issues = sorted(glob.glob('{}/issue???.aspx'.format(WWW_DIR)))
+    data = [
+        {'number': i, 'title': parse_issue_title(issue)}
+        for i, issue in enumerate(issues, start=1)
+    ]
+    makedirs(DATA_DIR, exist_ok=True)
+    with open(join(DATA_DIR, 'issues.json'), 'w') as f:
+        json.dump(data, f)
 
-    article = join(HERE, '..', 'www.usaultimate.org', 'huddle', 'issue009_gwen_ambler.aspx')
-    create_md_content_dir()
+    return data
+
+
+def parse_issue_title(issue_path):
+    with open(issue_path) as f:
+        soup = BeautifulSoup(f, 'html.parser')
+
+    return re.sub('\s+', ' ', soup.select_one('h3').text).strip()
+
+
+if __name__ == '__main__':
+    # create_md_content_dir()
+    create_issue_index()
