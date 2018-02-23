@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "https://punchagan.github.io/the-huddle/"
 languageCode = "en-us"
 title = "The Huddle"
 theme = "kube"
