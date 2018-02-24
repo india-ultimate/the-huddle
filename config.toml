@@ -14,3 +14,8 @@ Paginate = 25
 
 [outputs]
     home = [ "HTML", "RSS", "JSON"]
+
+[[menu.main]]
+    name = "About"
+    weight = -100
+    url = "/about/"
