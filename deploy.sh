@@ -9,6 +9,9 @@ pushd $(dirname $0)
 rm -rf "${PUBLIC_DIR}"
 hugo
 
+# Build and persist lumr index
+node scripts/build-index.js < public/index.json > public/index.lumr.json
+
 # Push to GitHub
 pushd "${PUBLIC_DIR}"
 git init
