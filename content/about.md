@@ -1,6 +1,5 @@
 +++
 title = "About"
-author = "punchagan"
 date = "2018-02-24"
 +++
 
