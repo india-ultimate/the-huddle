@@ -2,7 +2,7 @@ baseURL = "https://punchagan.github.io/the-huddle/"
 languageCode = "en-us"
 title = "The Huddle"
 theme = "kube"
-Paginate = 25
+Paginate = 10000
 
 [Params]
     RSSLink = "/index.xml"
