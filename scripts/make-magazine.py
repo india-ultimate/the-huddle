@@ -83,7 +83,7 @@ def create_issue_index():
     ]
     makedirs(DATA_DIR, exist_ok=True)
     with open(join(DATA_DIR, 'issues.json'), 'w') as f:
-        json.dump(data, f)
+        json.dump(data, f, indent=2)
 
     return data
 
@@ -92,7 +92,8 @@ def parse_issue_title(issue_path):
     with open(issue_path) as f:
         soup = BeautifulSoup(f, 'html.parser')
 
-    return re.sub('\s+', ' ', soup.select_one('h3').text).strip()
+    title = re.sub('\s+', ' ', soup.select_one('h3').text).strip()
+    return ' '.join(x.capitalize() for x in title.split())
 
 
 if __name__ == '__main__':
