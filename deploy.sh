@@ -12,6 +12,9 @@ hugo
 # Build and persist lumr index
 node scripts/build-index.js < public/index.json > public/index.lumr.json
 
+# Update README
+scripts/make-readme.sh
+
 # Push to GitHub
 pushd "${PUBLIC_DIR}"
 git init
