@@ -99,5 +99,5 @@ def parse_issue_title(issue_path):
 
 
 if __name__ == "__main__":
-    # create_md_content_dir()
+    create_md_content_dir()
     create_issue_index()
