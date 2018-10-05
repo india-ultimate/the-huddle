@@ -6,6 +6,7 @@ import json
 from os import makedirs
 from os.path import abspath, basename, dirname, join
 import re
+import subprocess
 
 from bs4 import BeautifulSoup
 from dateutil import parser
@@ -28,6 +29,53 @@ def create_md_content_dir():
     ]
     for post in content:
         create_hugo_post(post, CONTENT_DIR)
+
+
+def add_premise_questions():
+    paths = [
+        path
+        for path in glob.glob("{}/issue[0-9][0-9][0-9].aspx".format(WWW_DIR))
+    ]
+    for path in sorted(paths):
+        parse_premise_questions(path)
+
+
+def parse_premise_questions(article_path):
+    with open(article_path) as f:
+        soup = BeautifulSoup(f, "html.parser")
+    row = soup.select_one("td[width=600]")
+    row.select_one("table").replace_with("")
+    row.select_one(".fb-like").replace_with("")
+    row.select_one("hr").replace_with("")
+    for line_break in row.select("br"):
+        line_break.replace_with("\n")
+    for tag in row():
+        if "text-align: center" in tag.attrs.get("style", ""):
+            tag.replace_with("")
+        elif tag.name == "span":
+            for t in tag():
+                if t.name == "font":
+                    t.replace_with(t.text)
+            tag.replace_with(tag.renderContents().decode("utf8"))
+        else:
+            del tag["style"]
+
+        if "thehuddle@usaultimate.org" in tag.text:
+            try:
+                tag.replace_with("")
+            except ValueError:
+                pass
+
+    html = row.renderContents().decode("utf8").strip()
+    temp_html_path = "/tmp/foo.html"
+    with open(temp_html_path, "w") as g:
+        g.write(html)
+    markdown = subprocess.check_output(
+        ["pandoc", "-r", "html", "-w", "markdown", temp_html_path]
+    )
+    issue = re.search("issue(\d{3}).aspx", article_path).group(1)
+    with open("{}/issue-{}/_index.md".format(CONTENT_DIR, issue), "w") as f:
+        f.write(markdown.decode("utf8"))
 
 
 def parse_article(article_path):
@@ -101,3 +149,4 @@ def parse_issue_title(issue_path):
 if __name__ == "__main__":
     create_md_content_dir()
     create_issue_index()
+    add_premise_questions()
