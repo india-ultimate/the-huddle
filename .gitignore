@@ -1,2 +1,5 @@
 /www.usaultimate.org/*
 /node_modules/
+/public/
+/themes/
+/.hugo_build.lock
