@@ -21,7 +21,7 @@ git init
 git add .
 git commit -m "Deploy to GitHub Pages" \
     --author "Puneeth Chaganti <punchagan@muse-amuse.in>"
-git push --force "${GIT_URL}" master:gh-pages
+git push --force "${GIT_URL}" main:gh-pages
 popd
 
 popd
