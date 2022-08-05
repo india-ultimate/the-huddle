@@ -1,6 +1,8 @@
 baseURL = "https://the-huddle.indiaultimate.org/"
 languageCode = "en-us"
 title = "The Huddle"
+# The theme used is a fork of the original kube theme available here:
+# https://github.com/india-ultimate/kube/
 theme = "kube"
 Paginate = 10000
 
