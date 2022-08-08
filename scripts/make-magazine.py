@@ -52,7 +52,11 @@ def parse_premise_questions(article_path):
             for t in tag():
                 if t.name == "font":
                     t.replace_with(t.text)
-            tag.replace_with(tag.renderContents().decode("utf8"))
+                elif t.name == "span" and "thehuddle@usaultimate.org" not in tag.text:
+                    tag.replace_with(t.text)
+                    break
+            else:
+                tag.replace_with(tag.renderContents().decode("utf8"))
         else:
             del tag["style"]
 
