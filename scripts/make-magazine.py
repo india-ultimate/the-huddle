@@ -24,18 +24,14 @@ def create_md_content_dir():
 
     makedirs(CONTENT_DIR, exist_ok=True)
     content = [
-        parse_article(path)
-        for path in glob.glob("{}/issue*_*.aspx".format(WWW_DIR))
+        parse_article(path) for path in glob.glob("{}/issue*_*.aspx".format(WWW_DIR))
     ]
     for post in content:
         create_hugo_post(post, CONTENT_DIR)
 
 
 def add_premise_questions():
-    paths = [
-        path
-        for path in glob.glob("{}/issue[0-9][0-9][0-9].aspx".format(WWW_DIR))
-    ]
+    paths = [path for path in glob.glob("{}/issue[0-9][0-9][0-9].aspx".format(WWW_DIR))]
     for path in sorted(paths):
         parse_premise_questions(path)
 
@@ -88,9 +84,7 @@ def parse_article(article_path):
     title = re.sub("\s+", " ", title_node.text)
     author_node = title_node.next_sibling.next_sibling
     author = " ".join(author_node.text.split()[1:])
-    date = (
-        soup.select_one("img[width=300]").parent.parent.select_one("em").text
-    )
+    date = soup.select_one("img[width=300]").parent.parent.select_one("em").text
     date = parser.parse(date).date().isoformat()
 
     hr_node = author_node.next_sibling.next_sibling
