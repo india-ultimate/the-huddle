@@ -50,5 +50,5 @@ Partner up with a disc, set up 10 yards apart and go 70-90 yards up and back
 doing:  
 
   * **Regular Dishies:** Complete running passes to each other up and down the field. Try to throw less than 2 steps after the catch (ideally within 1 step).
-  * **Inside Out Dishies:** Repeat with a pump fake to the outside, then hitting your partner with an in stride inside out throw. Focus on a quick pivot  & throw.
+  * **Inside Out Dishies:** Repeat with a pump fake to the outside, then hitting your partner with an in stride inside out throw. Focus on a quick pivot & throw.
   * **Around Dishies:** Partner goes up the line, then cuts for an around throw off of the pump fake. The timing is different on this one than it is for inside out dishies. Take the imaginary downfield look, then inside, then beat your imaginary mark with a quick move to the around throw.
