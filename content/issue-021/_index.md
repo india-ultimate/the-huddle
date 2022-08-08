@@ -7,5 +7,5 @@ ready to play for hardware.
 We were lucky enough to find ten members of Team USA who could answer
 questions about their specialties. 
 
-Thanks to Head Coach Greg Connelly and the UPA's Josh Seamon for their
+Thanks to Head Coach Greg Connelly and the UPA\'s Josh Seamon for their
 help in putting together this issue.

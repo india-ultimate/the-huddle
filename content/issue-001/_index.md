@@ -15,4 +15,3 @@ To guide our panel, we asked the following sub-questions as well:
     What about a stiff crosswind?  
 -   What adjustments can you make strategically in either offense in a
     very strong (sustained 20-mph +) wind?
-

@@ -10,7 +10,7 @@ defense can mean the difference between getting a block and giving up an
 easy goal. Being able to effectively pivot with the disc in your hands
 can mean getting a throw off before stall 10.
 
-In this issue of "The Huddle," we have asked our authors to discuss
+In this issue of \"The Huddle,\" we have asked our authors to discuss
 examples of good footwork on the field and what we can do to improve,
 illustrate who they have seen that demonstrates superior skills in this
 manner, and show us what may be some telltale signs of poor form.

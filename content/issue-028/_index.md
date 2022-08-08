@@ -1,4 +1,4 @@
-Fury and Chain Lightning (as well as Axis Of C'Ville and Troubled Past)
+Fury and Chain Lightning (as well as Axis Of C\'Ville and Troubled Past)
 played incredibly well and with great Spirit in Sarasota last October,
 and they deserve their plaudits. It is not for the champions to tell us
 how they won; it is our task to try and decipher what made these teams

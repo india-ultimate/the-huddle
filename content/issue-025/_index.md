@@ -1,7 +1,7 @@
 Everyone knows how to mark. As Ben van Heuvelen puts it, the combination
 of low hips, balance and wide arms are widely perceived as the first
 steps to a good mark. What do you do once you are playing at a level
-where a "generally good mark" just isn't good enough? What are the
+where a \"generally good mark\" just isn\'t good enough? What are the
 tricks that some of the top players are using?
 
 We noticed, in going through these articles, that most of these tricks

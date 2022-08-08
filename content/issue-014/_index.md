@@ -11,11 +11,10 @@ of tricks to break down an individual defender.
 We asked out authors the following leading questions, and we see a wide
 variety among the twelve responses:
 
--   What is your favorite "move" for breaking the mark? How do you do
+-   What is your favorite \"move\" for breaking the mark? How do you do
     it, and in what situations do you find it most useful?  
 -   What is most important in teaching young players to break the mark?
      
 -   Which do you feel is more important: Having a lot of players that
     can break the mark, or having some players on the field that can
     break the mark very well?  
-

@@ -1,6 +1,6 @@
 Young, athletic, inexperienced players can be taught 1-on-1 defense, at
-least at a cursory level, very quickly. "Stay close to your person" or
-"run hard, get your hand on the disc" work very well for simple
+least at a cursory level, very quickly. \"Stay close to your person\" or
+\"run hard, get your hand on the disc\" work very well for simple
 defensive skills.
 
 However, team defense (poaching, switching, zone) can be harder to

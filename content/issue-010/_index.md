@@ -1,4 +1,4 @@
-There's likely no play more exciting in Ultimate than the huck. A team
+There\'s likely no play more exciting in Ultimate than the huck. A team
 puts everything on the line for one big thow, for a moment of glory. But
 how do the best throwers in the game throw the disc so far and with so
 much accuracy?
