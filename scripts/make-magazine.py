@@ -124,10 +124,14 @@ def slugify(title):
 
 def create_issue_index():
     issues = sorted(glob.glob("{}/issue???.aspx".format(WWW_DIR)))
-    data = [
-        {"number": i, "title": parse_issue_title(issue)}
+    title_date = [
+        (i, parse_issue_title_and_date(issue))
         for i, issue in enumerate(issues, start=1)
         if i < 34
+    ]
+
+    data = [
+        {"number": i, "title": title, "date": date} for i, (title, date) in title_date
     ]
     makedirs(DATA_DIR, exist_ok=True)
     with open(join(DATA_DIR, "issues.json"), "w") as f:
@@ -137,12 +141,14 @@ def create_issue_index():
     return data
 
 
-def parse_issue_title(issue_path):
+def parse_issue_title_and_date(issue_path):
     with open(issue_path) as f:
         soup = BeautifulSoup(f, "html.parser")
 
     title = re.sub("\s+", " ", soup.select_one("h3").text).strip()
-    return " ".join(x.capitalize() for x in title.split())
+    date = soup.select("table em")[-1].text
+    date = parser.parse(date).date().isoformat()
+    return " ".join(x.capitalize() for x in title.split()), date
 
 
 if __name__ == "__main__":
