@@ -88,9 +88,8 @@ def parse_article(article_path):
     title = re.sub("\s+", " ", title_node.text)
     author_node = title_node.next_sibling.next_sibling
     author = " ".join(author_node.text.split()[1:])
-    date = soup.select_one("img[width=300]").parent.parent.select_one("em").text
+    date = soup.select("table em")[-1].text
     date = parser.parse(date).date().isoformat()
-
     hr_node = author_node.next_sibling.next_sibling
     html_content = " ".join(map(str, hr_node.next_siblings)).strip()
     content = html2text.html2text(html_content)
