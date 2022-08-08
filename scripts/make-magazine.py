@@ -4,7 +4,7 @@
 import glob
 import json
 from os import makedirs
-from os.path import abspath, basename, dirname, join
+from os.path import abspath, basename, dirname, exists, join
 import re
 import subprocess
 
@@ -70,7 +70,11 @@ def parse_premise_questions(article_path):
         ["pandoc", "-r", "html", "-w", "markdown", temp_html_path]
     )
     issue = re.search("issue(\d{3}).aspx", article_path).group(1)
-    with open("{}/issue-{}/_index.md".format(CONTENT_DIR, issue), "w") as f:
+    issue_file = "{}/issue-{}/_index.md".format(CONTENT_DIR, issue)
+    if not (exists(issue_file)):
+        print(f"Could not parse premise questions for {issue_file}")
+        return
+    with open(issue_file, "w") as f:
         f.write(markdown.decode("utf8"))
 
 
@@ -124,10 +128,12 @@ def create_issue_index():
     data = [
         {"number": i, "title": parse_issue_title(issue)}
         for i, issue in enumerate(issues, start=1)
+        if i < 34
     ]
     makedirs(DATA_DIR, exist_ok=True)
     with open(join(DATA_DIR, "issues.json"), "w") as f:
         json.dump(data, f, indent=2)
+        f.write("\n")
 
     return data
 
