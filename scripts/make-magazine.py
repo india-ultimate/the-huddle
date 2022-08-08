@@ -39,7 +39,7 @@ def add_premise_questions():
 def parse_premise_questions(article_path):
     with open(article_path) as f:
         soup = BeautifulSoup(f, "html.parser")
-    row = soup.select_one("td[width=600]")
+    row = soup.find("td", {"width": "600"})
     row.select_one("table").replace_with("")
     row.select_one(".fb-like").replace_with("")
     row.select_one("hr").replace_with("")
