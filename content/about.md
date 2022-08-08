@@ -15,4 +15,4 @@ hard to read and navigate, especially on mobile devices.
 
 This archive is maintained by [@punchagan](https://github.com/punchagan/). You
 can find the source files for this archive
-[here](https://github.com/thatte-idli-kaal-soup/the-huddle/).
+[here](https://github.com/india-ultimate/the-huddle/).
