@@ -91,6 +91,8 @@ def replace_with(old_tag, new_name):
 def parse_article(article_path):
     """Parse article and return a dict with metadata and markdown content."""
 
+    print(f"Parsing article {article_path}")
+
     with open(article_path) as f:
         soup = BeautifulSoup(f, "html.parser")
 
