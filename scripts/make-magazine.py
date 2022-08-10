@@ -215,6 +215,17 @@ def parse_issue_title_and_date(issue_path):
 
 
 if __name__ == "__main__":
-    create_md_content_dir()
-    create_issue_index()
-    add_premise_questions()
+    import argparse
+
+    arg_parser = argparse.ArgumentParser()
+    arg_parser.add_argument("--article", required=False)
+
+    args = arg_parser.parse_args()
+
+    if args.article:
+        create_hugo_post(parse_article(args.article), CONTENT_DIR)
+
+    else:
+        create_md_content_dir()
+        create_issue_index()
+        add_premise_questions()
