@@ -9,10 +9,28 @@ import requests
 BASE_URL = "https://archive.usaultimate.org/huddle/issue{:03d}.aspx"
 HERE = os.path.dirname(os.path.abspath(__file__))
 ARCHIVE_DIR = os.path.join(HERE, "..", "archive")
+IMAGE_DIR = os.path.join(HERE, "..", "static", "images")
 SESSION = requests.Session()
 
 
+def download_image(url, force=False):
+    name = os.path.basename(url)
+    path = os.path.join(IMAGE_DIR, name)
+    if not force and os.path.exists(path):
+        print(f"Skipping image: {name} ...")
+        return
+
+    response = SESSION.get(url)
+    if not response.status_code == 200:
+        print(f"Failed to download image {name} with code: {response.status_code}")
+        return
+
+    with open(path, "wb") as f:
+        f.write(response.content)
+
+
 def download_article(url, force=False):
+    # Broken index page in Issue 23
     if "sparling-" in url:
         url = url.replace("sparling-", "sparling_")
 
@@ -31,6 +49,16 @@ def download_article(url, force=False):
 
     with open(path, "w") as f:
         f.write(text)
+
+    soup = BeautifulSoup(text, "html.parser")
+    sources = {img.attrs.get("src") for img in soup.findAll("img")}
+    sources = {
+        src.replace("www.", "archive.")
+        for src in sources
+        if src.startswith("https://www.usaultimate.org/assets/1/News/")
+    }
+    for url in sources:
+        download_image(url, force=force)
 
 
 def download_issue(num, force=False):
@@ -51,6 +79,7 @@ def download_issue(num, force=False):
 
 def main(issue_number=None, force=False):
     os.makedirs(ARCHIVE_DIR, exist_ok=True)
+    os.makedirs(IMAGE_DIR, exist_ok=True)
     if issue_number:
         download_issue(issue_number, force)
 
