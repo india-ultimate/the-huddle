@@ -2198,7 +2198,7 @@
 
 		
 		<div id="footer_ad">
-			<div id="divAdZone_9d4b1f898bc74c0ca9f945ebb30c551f"></div><script type="text/javascript">getAd(5, 0, 'divAdZone_9d4b1f898bc74c0ca9f945ebb30c551f')</script>
+			<div id="divAdZone_82385bc182e94d7f8606abc8565569e1"></div><script type="text/javascript">getAd(5, 0, 'divAdZone_82385bc182e94d7f8606abc8565569e1')</script>
 		</div>
 
 	

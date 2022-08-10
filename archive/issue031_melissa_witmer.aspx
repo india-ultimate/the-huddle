@@ -1006,15 +1006,15 @@
 <li style="margin-left: 15px; list-style-type: disc; list-style-position: initial; list-style-image: initial; zoom: 1; "><a href="http://www.youtube.com/watch?v=yFJG4GW5JJk" style="color: rgb(182, 5, 57); ">inch worms</a></li>
 <li style="margin-left: 15px; list-style-type: disc; list-style-position: initial; list-style-image: initial; zoom: 1; "><a href="http://www.youtube.com/watch?v=4Y0qV6H0mQw&amp;NR=1" style="color: rgb(182, 5, 57); ">bent over thoracic spine rotataion</a></li>
 <li style="margin-left: 15px; list-style-type: disc; list-style-position: initial; list-style-image: initial; zoom: 1; "><a href="http://www.youtube.com/watch?v=gldbyfEtNnE" style="color: rgb(182, 5, 57); ">five point lunges</a></li>
-<li style="margin-left: 15px; list-style-type: disc; list-style-position: initial; list-style-image: initial; zoom: 1; "><a href="http://www.coreperformance.com/knowledge/movements/inverted-hamstring-moving-forward.html" style="color: rgb(182, 5, 57); ">airplanes</a></li>
-<li style="margin-left: 15px; list-style-type: disc; list-style-position: initial; list-style-image: initial; zoom: 1; "><a href="http://www.coreperformance.com/knowledge/movements/sumo-squat-to-stand-football.html" style="color: rgb(182, 5, 57); ">sumo squats</a></li>
+<li style="margin-left: 15px; list-style-type: disc; list-style-position: initial; list-style-image: initial; zoom: 1; "><a href="http://web.archive.org/web/20220101010101/http://www.coreperformance.com/knowledge/movements/inverted-hamstring-moving-forward.html" style="color: rgb(182, 5, 57); ">airplanes</a></li>
+<li style="margin-left: 15px; list-style-type: disc; list-style-position: initial; list-style-image: initial; zoom: 1; "><a href="http://web.archive.org/web/20220101010101/http://www.coreperformance.com/knowledge/movements/sumo-squat-to-stand-football.html" style="color: rgb(182, 5, 57); ">sumo squats</a></li>
 </ul>
 </li>
 <li style="margin-left: 15px; list-style-type: disc; list-style-position: initial; list-style-image: initial; zoom: 1; ">dynamic
                 <ul style="padding-right: 25px; padding-left: 25px; zoom: 1; ">
 <li style="margin-left: 15px; list-style-type: disc; list-style-position: initial; list-style-image: initial; zoom: 1; ">clap pushups</li>
 <li style="margin-left: 15px; list-style-type: disc; list-style-position: initial; list-style-image: initial; zoom: 1; "><a href="http://www.youtube.com/watch?v=2wCnap9MHzk" style="color: rgb(182, 5, 57); ">lateral skip</a></li>
-<li style="margin-left: 15px; list-style-type: disc; list-style-position: initial; list-style-image: initial; zoom: 1; "><a href="http://www.coreperformance.com/knowledge/movements/dropstep-skip.html" style="color: rgb(182, 5, 57); ">drop-step skip</a></li>
+<li style="margin-left: 15px; list-style-type: disc; list-style-position: initial; list-style-image: initial; zoom: 1; "><a href="http://web.archive.org/web/20220101010101/http://www.coreperformance.com/knowledge/movements/dropstep-skip.html" style="color: rgb(182, 5, 57); ">drop-step skip</a></li>
 <li style="margin-left: 15px; list-style-type: disc; list-style-position: initial; list-style-image: initial; zoom: 1; ">cariocas</li>
 </ul>
 </li>
@@ -1777,7 +1777,7 @@
 </div>
 </div>
 <div id="footer_ad">
-<div id="divAdZone_18a034676dd540168d313ee04ff127e1"></div><script type="text/javascript">getAd(5, 0, 'divAdZone_18a034676dd540168d313ee04ff127e1')</script>
+<div id="divAdZone_1f7c82d66fd04e609167b41a47c62595"></div><script type="text/javascript">getAd(5, 0, 'divAdZone_1f7c82d66fd04e609167b41a47c62595')</script>
 </div>
 </div>
 <div id="footer_slot">

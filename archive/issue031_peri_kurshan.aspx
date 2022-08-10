@@ -1715,7 +1715,7 @@
 </div>
 </div>
 <div id="footer_ad">
-<div id="divAdZone_34270e823cc343269142b3246921d86b"></div><script type="text/javascript">getAd(5, 0, 'divAdZone_34270e823cc343269142b3246921d86b')</script>
+<div id="divAdZone_58ff2d47ca634442ae0ca0de1605dca2"></div><script type="text/javascript">getAd(5, 0, 'divAdZone_58ff2d47ca634442ae0ca0de1605dca2')</script>
 </div>
 </div>
 <div id="footer_slot">
