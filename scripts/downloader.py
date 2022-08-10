@@ -48,6 +48,7 @@ def download_article(url, force=False):
         return
 
     soup = BeautifulSoup(text, "html.parser")
+    # Download images and replace URI with relative URIs
     for img in soup.findAll("img"):
         src = img.attrs.get("src")
         if not src.startswith("https://www.usaultimate.org/assets/1/News/"):
@@ -56,6 +57,18 @@ def download_article(url, force=False):
         img.attrs["src"] = f"/images/{name}"
         url = src.replace("www.", "archive.")
         download_image(url, force=force)
+
+    # Link to web.archive.org URI for dead sites
+    DEAD_SITES = (
+        "http://www.coreperformance.com/",
+        "http://www.superpowers.us",
+        "http://www.ndgbaseball.org",
+    )
+    for link in soup.findAll("a"):
+        href = link.attrs.get("href", "")
+        if not href.startswith(DEAD_SITES):
+            continue
+        link.attrs["href"] = f"http://web.archive.org/web/20220101010101/{href}"
 
     with open(path, "w") as f:
         f.write(str(soup))

@@ -41,12 +41,12 @@ basic warm up sequence:
     * [inch worms](http://www.youtube.com/watch?v=yFJG4GW5JJk)
     * [bent over thoracic spine rotataion](http://www.youtube.com/watch?v=4Y0qV6H0mQw&NR=1)
     * [five point lunges](http://www.youtube.com/watch?v=gldbyfEtNnE)
-    * [airplanes](http://www.coreperformance.com/knowledge/movements/inverted-hamstring-moving-forward.html)
-    * [sumo squats](http://www.coreperformance.com/knowledge/movements/sumo-squat-to-stand-football.html)
+    * [airplanes](http://web.archive.org/web/20220101010101/http://www.coreperformance.com/knowledge/movements/inverted-hamstring-moving-forward.html)
+    * [sumo squats](http://web.archive.org/web/20220101010101/http://www.coreperformance.com/knowledge/movements/sumo-squat-to-stand-football.html)
   * dynamic 
     * clap pushups
     * [lateral skip](http://www.youtube.com/watch?v=2wCnap9MHzk)
-    * [drop-step skip](http://www.coreperformance.com/knowledge/movements/dropstep-skip.html)
+    * [drop-step skip](http://web.archive.org/web/20220101010101/http://www.coreperformance.com/knowledge/movements/dropstep-skip.html)
     * cariocas
 
   

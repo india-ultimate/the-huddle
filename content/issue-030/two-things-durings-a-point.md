@@ -45,7 +45,7 @@ so.
 Every time a player does something unexpected, there is almost always a trade-
 off which weakens the approach a team is taking. A prime example of this is a
 [strike call on a sideline
-trap](http://www.superpowers.us/ultimate.html#advanced.defense.mark.strike).
+trap](http://web.archive.org/web/20220101010101/http://www.superpowers.us/ultimate.html#advanced.defense.mark.strike).
 You hear this call quite a bit, but acting on a strike call does two things.
 First, the marker is giving up the portion of the field the rest of the team
 is expecting them to take away. Second, it helps out a defender who was beat

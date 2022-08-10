@@ -35,9 +35,10 @@ When you watch a baseball pitcher, there is a moment in time where they have
 not yet released the pitch, but their arm is moving forwards and you see their
 elbow leading their wrist through the throwing motion. (A quick Google Image
 Search brings
-[this](http://www.ndgbaseball.org/pictures/baseball_tips/madduxdel.jpg).) This
-same leading with the elbow motion is what I think about when I am about to
-release a disc because it helps me get all the possible snap out of my wrist.  
+[this](http://web.archive.org/web/20220101010101/http://www.ndgbaseball.org/pictures/baseball_tips/madduxdel.jpg).)
+This same leading with the elbow motion is what I think about when I am about
+to release a disc because it helps me get all the possible snap out of my
+wrist.  
   
 A few ways to practice wrist snap for the forehand: Throw fast and flat (not
 high arcing) blades with a partner. If you don't have a partner, often indoor
