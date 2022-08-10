@@ -177,6 +177,7 @@ def create_hugo_post(content, dest_dir):
     post_path = join(issue_dir, "{}.md".format(slugify(content["title"])))
     with open(post_path, "w") as f:
         f.write(post)
+        f.flush()
 
 
 def slugify(title):
