@@ -29,15 +29,13 @@ emphasizes teamwork, sportsmanship, and spirit. Along with learning the game
 these guys are still learning how to work with others and how to do it
 respectfully in a competitive environment.
 
-**Favorite drills/games for kids this age** | **Potential Practice Plan 1.5
-hours**  
----|---  
-  
+###### Favorite drills/games for kids this age
+
   * Dog: two players run deep for a pass trying to catch it.
   * Frisbee tag: players who are "it" work together to pass the disc around and tag others with the disc or by throwing a soft pass at another player for them to become it as well. Played in an end zone.
   * Ladder drill races: team members must run ahead of the player with the disc and receive a pass to gain yards and make their way down the field. Players must throw and receive from the same player, teams of 4 or 5.
 
-|
+###### Potential Practice Plan 1.5 hours
 
   * 0-10/15min: Warm up game
   * 15min-30: Partner throwing/catching
@@ -46,7 +44,6 @@ hours**
   * 55min-1hr 10: Basic come to drill
   * 1:15-1:30: Dog Drill
 
-  
   
   
 **Middle School (Grade 11-14) Intermediate**  
@@ -75,15 +72,15 @@ always like to end practice with a full scrimmage, they deserve it and really
 these kids just need to play, play, play, have fun and learn to play as a
 team.  
   
-**Themes for practice at this level** | **Practice Outline 2 hours**  
----|---  
-  
+
+###### Themes for practice at this level
+
   * Fundamentals!: Footwork, how to cut, finding open space, proper throwing form
   * Timing cuts off others, Offensive cutting patters, Vert or Ho stack
   * Defense body positioning
   * Marking and the Force
 
-|
+###### Practice Outline 2 hours
 
   * 0-20minutes Warm up
   * 20-30minutes Throwing

@@ -153,8 +153,7 @@ practices, with the focus being improving individual downfield defense:
   * 2:20 Cooldown, stretch, recap of major points in initial discussion
 
   
----  
-  
+
 **Thursday**  
 
   * 0:00 Warm-up plyos 
@@ -183,8 +182,7 @@ practices, with the focus being improving individual downfield defense:
   * 2:15 Stretch, recap major points, done
 
   
----  
-  
+
 **Saturday**  
 
   * 0:00 Warm-ups: Do same partner-cone-jog warmups, then plyos. Finish with defensive plyos like on Tuesday.
@@ -206,6 +204,3 @@ practices, with the focus being improving individual downfield defense:
   * 2:10 Water break
   * 2:15 Conditioning: Skyball
   * 2:22 Stretch, recap major points of what we've accomplished this week, done
-
-  
----

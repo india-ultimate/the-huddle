@@ -116,6 +116,36 @@ def parse_article(article_path):
         if len(list(em.children)) > 1:
             replace_with(em, "em")
 
+    for table in soup.findAll("table"):
+        if table.attrs.get("width") in {"940", "300"}:
+            continue
+
+        if not table.text.strip():
+            continue
+
+        cols, rows = len(table.find("tr").findAll("td")), len(table.findAll("tr"))
+
+        if rows == cols == 1:
+            cell = table.find("td")
+            cell.name = "div"
+            table.replace_with(cell)
+
+        elif rows == cols == 2:
+            headings, data = table.findAll("tr")
+            head1, head2 = headings.findAll("td")
+            data1, data2 = data.findAll("td")
+
+            container = Tag(name="div")
+
+            for head, data in ((head1, data1), (head2, data2)):
+                tag = Tag(name="h6")
+                tag.append(head.text.strip())
+                container.append(tag)
+                data.name = "p"
+                container.append(data)
+
+            table.replace_with(container)
+
     title_node = soup.select_one(".georgia")
     title = re.sub("\s+", " ", title_node.text)
     author_node = title_node.next_sibling.next_sibling

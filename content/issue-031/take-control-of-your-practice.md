@@ -33,13 +33,16 @@ in a turnover. Players on the sideline counted the throws out loud to make
 everyone aware. The specific, measurable objective quickly opened up our
 offense and got us comfortable moving the disc horizontally.
 
-Success: crossed midline within 4 passes |  Turnover: failure to cross within
-4 passes  
----|---  
+###### Success: crossed midline within 4 passes
+
 ![huddle31i
-korber01](https://www.usaultimate.org/assets/1/News/huddle31i_korber01.png) |
+korber01](https://www.usaultimate.org/assets/1/News/huddle31i_korber01.png)
+
+###### Turnover: failure to cross within 4 passes
+
 ![huddle31i
-korber02](https://www.usaultimate.org/assets/1/News/huddle31i_korber02.png)  
+korber02](https://www.usaultimate.org/assets/1/News/huddle31i_korber02.png)
+
 _[Diagrams by Kathryn Irons]_  
   
 **Keep things moving** – Regardless of the demographic of your team, learning
