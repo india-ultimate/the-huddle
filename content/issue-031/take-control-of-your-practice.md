@@ -35,13 +35,11 @@ offense and got us comfortable moving the disc horizontally.
 
 ###### Success: crossed midline within 4 passes
 
-![huddle31i
-korber01](https://www.usaultimate.org/assets/1/News/huddle31i_korber01.png)
+![huddle31i korber01](/images/huddle31i_korber01.png)
 
 ###### Turnover: failure to cross within 4 passes
 
-![huddle31i
-korber02](https://www.usaultimate.org/assets/1/News/huddle31i_korber02.png)
+![huddle31i korber02](/images/huddle31i_korber02.png)
 
 _[Diagrams by Kathryn Irons]_  
   

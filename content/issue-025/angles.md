@@ -33,9 +33,7 @@ thrower and M is marker, and the force is backhand. The dark blue is the area
 that you should block—definitely. You should try to harass throws in the light
 blue, but not at too much risk to your dark blue area.  
 
-![Issue025 Goff
-diagram1](https://www.usaultimate.org/assets/1/News/Issue025_Goff_diagram1.png)
-_Figure No. 1_  
+![Issue025 Goff diagram1](/images/Issue025_Goff_diagram1.png) _Figure No. 1_  
   
 The third is positioning. I believe that most marks, even at all but the very
 top levels, are too far away from the thrower. It seems to be common practice

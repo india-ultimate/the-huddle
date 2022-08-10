@@ -17,8 +17,7 @@ thrower has yet to initiate a throwing motion, or fake, and the mark already
 has her arms fully extended. The thrower can now find the gaps and use these
 for release points in her throw.  
 
-![Issue025 Matzuka
-photo1](https://www.usaultimate.org/assets/1/News/Issue025_Matzuka_photo1.jpg)  
+![Issue025 Matzuka photo1](/images/Issue025_Matzuka_photo1.jpg)  
 Photo 1
 
   
@@ -40,8 +39,7 @@ inside break backhand and your hand appears, which makes them work harder by
 faking multiple times to get the option they want).  
   
 
-![Issue025 Matzuka
-photo2](https://www.usaultimate.org/assets/1/News/Issue025_Matzuka_photo2.jpg)  
+![Issue025 Matzuka photo2](/images/Issue025_Matzuka_photo2.jpg)  
 Photo 2
 
   
