@@ -47,18 +47,18 @@ def download_article(url, force=False):
         print(f"Failed to download article {name} with code: {response.status_code}")
         return
 
-    with open(path, "w") as f:
-        f.write(text)
-
     soup = BeautifulSoup(text, "html.parser")
-    sources = {img.attrs.get("src") for img in soup.findAll("img")}
-    sources = {
-        src.replace("www.", "archive.")
-        for src in sources
-        if src.startswith("https://www.usaultimate.org/assets/1/News/")
-    }
-    for url in sources:
+    for img in soup.findAll("img"):
+        src = img.attrs.get("src")
+        if not src.startswith("https://www.usaultimate.org/assets/1/News/"):
+            continue
+        name = os.path.basename(src)
+        img.attrs["src"] = f"/images/{name}"
+        url = src.replace("www.", "archive.")
         download_image(url, force=force)
+
+    with open(path, "w") as f:
+        f.write(str(soup))
 
 
 def download_issue(num, force=False):
