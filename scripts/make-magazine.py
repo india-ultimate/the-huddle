@@ -14,7 +14,7 @@ import html2text
 import pytoml
 
 HERE = dirname(abspath(__file__))
-WWW_DIR = join(HERE, "..", "www.usaultimate.org", "huddle")
+WWW_DIR = join(HERE, "..", "archive")
 CONTENT_DIR = join(HERE, "..", "content")
 DATA_DIR = join(HERE, "..", "data")
 
