@@ -7,8 +7,7 @@ date = "2011-03-31"
 
 _"The very essence of leadership is that you have to have vision. It’s got to
 be a vision you articulate clearly and forcefully on every occasion. You can’t
-blow an uncertain trumpet."  
-— Father Theodore Hesburgh_  
+blow an uncertain trumpet." — Father Theodore Hesburgh_  
   
 If team culture is simply a set commonly held attitudes and beliefs about a
 team, then the reason for wanting to encourage helpful culture is

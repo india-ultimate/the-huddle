@@ -10,9 +10,10 @@ is to follow? A match of our beautiful, dynamic sport that involves sprinting,
 jumping, throwing, marking and changing direction...  
   
 Ok, so how do we prepare for all that?  
-_**  
-The New School Warm Up:  
-**_  
+
+### The New School Warm Up:
+
+  
 _Pros:_ The most effective way to prepare the body to work out  
   
 _Cons:_ Takes a relatively long time, requires tools, is not flashy  
@@ -26,10 +27,7 @@ Here are all the components, in order:
       * _Inside Hip or Groin: Partner Seated Split Stretch_
       * _Outside Hip or Gluts: Chest to Shin Stretch_
       * _Front Side Hip or Hip Flexors: Kneeling Hip Flexor Stretch_
-      * _Backside Hip or Hamstring Group: Partner Hamstring Stretch  
-  
-_
-
+      * _Backside Hip or Hamstring Group: Partner Hamstring Stretch_
   * **_Mobilize_** or increase range of motion of a joint. Pay lots of attention to ankle, hip and thoracic spine.  
 
   * **_Activate_** (mini-bands, stretch bands) or "turn on" some smaller yet important muscles (i.e. glut medius, rhomboids)  
@@ -43,8 +41,10 @@ have activated important muscles and trained our neuromuscular system to
 recognize and replicate patterns we may encounter in the game. We are warm,
 supple, and moving well. We are ready to jam.  
   
-_**The Old School warm up:  
-**_  
+
+### The Old School warm up:
+
+  
 _Pros:_ Time efficient, requires no tools  
   
 _Cons:_ Fails to address tissue density, tissue length and activation  
@@ -53,13 +53,11 @@ The "new era" warm up is the most effective way to prepare the body for
 exercise. Though to some, it may seem unpractical…  
   
 _"Do you really expect me to bring my foam roller and stretch bands to the
-field and spend 20 minutes rolling and static stretching before I play?"  
-_  
+field and spend 20 minutes rolling and static stretching before I play?"_  
 If you want to perform at the highest possible level, Yes.  
   
 _"Whatever, I am just going to take my team through some traditional cone to
-cone dynamic warm ups"  
-_  
+cone dynamic warm ups"_  
 That is fine. Though conventional cone to cone style team warm ups may not be
 the most effective means of warm up, they do have benefits. For example, it
 does create team chemistry. Teams look organized and sometimes intimidating if

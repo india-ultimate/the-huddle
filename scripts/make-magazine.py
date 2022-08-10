@@ -8,7 +8,7 @@ from os.path import abspath, basename, dirname, exists, join
 import re
 import subprocess
 
-from bs4 import BeautifulSoup
+from bs4 import BeautifulSoup, Tag
 from dateutil import parser
 import html2text
 import pytoml
@@ -87,6 +87,33 @@ def parse_article(article_path):
 
     with open(article_path) as f:
         soup = BeautifulSoup(f, "html.parser")
+
+    for u in soup.findAll("u"):
+        tag = Tag(name="h3")
+        tag.insert(0, u.text.strip())
+        u.replace_with(tag)
+
+    for strong in soup.findAll("strong"):
+        if len(list(strong.children)) > 1:
+            if "K J 9 7 3" in strong.text:
+                up, _, down = [s.strip() for s in strong.text.strip().splitlines()]
+                tag = Tag(name="ul")
+                li = Tag(name="li")
+                li.insert(0, up)
+                tag.append(li)
+                li = Tag(name="li")
+                li.insert(0, down)
+                tag.append(li)
+            else:
+                tag = Tag(name="h3")
+                tag.insert(0, strong.text.strip())
+            strong.replace_with(tag)
+
+    for em in soup.findAll("em"):
+        if len(list(em.children)) > 1:
+            tag = Tag(name="em")
+            tag.insert(0, em.text.strip())
+            em.replace_with(tag)
 
     title_node = soup.select_one(".georgia")
     title = re.sub("\s+", " ", title_node.text)

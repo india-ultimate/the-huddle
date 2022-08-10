@@ -27,8 +27,10 @@ warmups. The difference was that they were done for distances of 10 yards or
 difference was that there was sufficient time between plyos (high knees, but
 kicks) for sufficient recovery.  
   
-**The Physical Components of a Warm Up  
-**  
+
+### The Physical Components of a Warm Up
+
+  
 Getting ready for sprinting is more about preparing the nervous system than it
 is about preparing the muscles. The nervous system is what gets your muscles
 firing in a coordinated manner. To get ready to play all out first point, the
@@ -55,8 +57,10 @@ The nervous system is a lot more tricky. It’s not something that’s conscious
 felt very well but it is what’s most important for being ready to go on the
 first point of the day.  
   
-**The Psychology of the Warm Up  
-**  
+
+### The Psychology of the Warm Up
+
+  
 The first time I experienced such a short warm up before my sprint sessions I
 was nervous. And for the next three weeks I was nervous every time. Then I
 started to realized that if I could do zombie kicks and not pull something, I
@@ -79,9 +83,11 @@ experienced for myself week after week the success of a short but intense
 warmup before my sprint workouts. But now I know.
 
   
-_(VIDEO CREDIT: Tommy Riggs)_ **Final Thoughts  
-  
-** If you are in charge of your team warmups I’d recommend making minor
+_(VIDEO CREDIT: Tommy Riggs)_
+
+### Final Thoughts
+
+If you are in charge of your team warmups I’d recommend making minor
 modifications at first. Move your team toward the direction of doing slightly
 less, allow slightly more time between plyos, and emphasize full intensity
 effort movement on footwork (cariocas, high knees, etc) rather than doing a

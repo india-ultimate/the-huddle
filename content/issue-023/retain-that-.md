@@ -29,36 +29,23 @@ must actively maintain your position physically.
 We received this email from a reader:  
   
 _I read the article from Ms. Roth about the catching discs subject and I
-disagree with one point.  
+disagree with one point. Ms. Roth wrote: "If one of the other people is your
+teammate, getting position on the opponent can actually allow your teammate to
+catch the disc, too" For me, if you don't play the disc you are not allowed to
+block the opponent to help your teammate. I checked WFDF Rules and it is
+related to rule 12.7. Keep up the good work. -a reader in France_ **The
+Huddle's Explanation:**  
   
-Ms. Roth wrote: "If one of the other people is your teammate, getting position
-on the opponent can actually allow your teammate to catch the disc, too"  
-  
-For me, if you don't play the disc you are not allowed to block the opponent
-to help your teammate. I checked WFDF Rules and it is related to rule 12.7.  
-  
-Keep up the good work.  
--a reader in France   
-  
-_**The Huddle's Explanation:**  
-  
-_Thanks, ARIF,  
-  
-We (and Miranda) agree with the rule that an offensive player cannot move
-solely to block a defender. For instance, if you are on defense, I can't run
-towards you and away from my teammate just to make sure you cannot make a
-play.  
-  
-Miranda is trying to make the point that the offense is allowed to choose
-whatever method they want to make a play on the disc. If I am on offense, and
-I move in a way where I could catch the disc but also is a position that seals
-a defender from making a likely play, this can be both legal and extremely
-effective. In practical terms, the differences between an illegal block and a
-legal positioning is probably going to come down to whether the player in
-question could (given flight of the disc, position, and where the player is
-looking) make a catch on that particular throw.  
-  
-Thanks, ARIF, for bringing this confusing issue to more clarity and we hope
-this makes sense.  
-  
--The Editors_
+_Thanks, ARIF, We (and Miranda) agree with the rule that an offensive player
+cannot move solely to block a defender. For instance, if you are on defense, I
+can't run towards you and away from my teammate just to make sure you cannot
+make a play. Miranda is trying to make the point that the offense is allowed
+to choose whatever method they want to make a play on the disc. If I am on
+offense, and I move in a way where I could catch the disc but also is a
+position that seals a defender from making a likely play, this can be both
+legal and extremely effective. In practical terms, the differences between an
+illegal block and a legal positioning is probably going to come down to
+whether the player in question could (given flight of the disc, position, and
+where the player is looking) make a catch on that particular throw. Thanks,
+ARIF, for bringing this confusing issue to more clarity and we hope this makes
+sense. -The Editors_

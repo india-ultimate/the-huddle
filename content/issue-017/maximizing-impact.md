@@ -26,17 +26,21 @@ cards in value.
 Using the previous example, if you arrange your cards up so that your high
 card is against their high card, you will get the following:  
   
-**K J 9 7 3  
+
+  * K J 9 7 3
+  * Q 10 8 5 4
+
   
-Q 10 8 5 4**  
   
 You will only manage to win one matchup, while losing four of the other
 matchups. Now, if you choose your matchups carefully, you can manage to win up
 to four of the matchups, out of the five:  
   
-**K J 9 7 3  
+
+  * K J 9 7 3
+  * 4 Q 10 8 5
+
   
-4 Q 10 8 5**  
   
 Ok, so lets step back onto the frisbee field and apply this abstraction. The
 point of this is that matching up your best against their best is not the
