@@ -5,7 +5,7 @@ PUBLIC_DIR="public"
 GIT_URL=$(git remote get-url origin)
 
 # Build the site
-pushd $(dirname $0)
+pushd $(dirname $0)/..
 rm -rf "${PUBLIC_DIR}"
 hugo
 
