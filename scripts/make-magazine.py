@@ -82,6 +82,12 @@ def parse_premise_questions(article_path):
         f.write(markdown.decode("utf8"))
 
 
+def replace_with(old_tag, new_name):
+    tag = Tag(name=new_name)
+    tag.insert(0, old_tag.text.strip())
+    old_tag.replace_with(tag)
+
+
 def parse_article(article_path):
     """Parse article and return a dict with metadata and markdown content."""
 
@@ -89,9 +95,7 @@ def parse_article(article_path):
         soup = BeautifulSoup(f, "html.parser")
 
     for u in soup.findAll("u"):
-        tag = Tag(name="h3")
-        tag.insert(0, u.text.strip())
-        u.replace_with(tag)
+        replace_with(u, "h3")
 
     for strong in soup.findAll("strong"):
         if len(list(strong.children)) > 1:
@@ -104,16 +108,13 @@ def parse_article(article_path):
                 li = Tag(name="li")
                 li.insert(0, down)
                 tag.append(li)
+                strong.replace_with(tag)
             else:
-                tag = Tag(name="h3")
-                tag.insert(0, strong.text.strip())
-            strong.replace_with(tag)
+                replace_with(strong, "h3")
 
     for em in soup.findAll("em"):
         if len(list(em.children)) > 1:
-            tag = Tag(name="em")
-            tag.insert(0, em.text.strip())
-            em.replace_with(tag)
+            replace_with(em, "em")
 
     title_node = soup.select_one(".georgia")
     title = re.sub("\s+", " ", title_node.text)
